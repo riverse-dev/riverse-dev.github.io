@@ -14,5 +14,13 @@
         "icon": "assets/images/appicon-warungku.png",
         "description": "Aplikasi pencatatan penjualan toko, simple, efisien dan terstruktur.",
         "is_release": true
+    },
+    {
+        "app_id": "listriku",
+        "name": "Listriku",
+        "link": "https://play.google.com/store/apps/details?id=id.riverse.listriku",
+        "icon": "assets/images/appicon-listriku.png",
+        "description": "Hitung pemakaian listrik harian & bulanan dengan mudah bersama Listriku",
+        "is_release": false
     }
 ]
