@@ -4,35 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Riverse Dev — studio indie Indonesia yang bikin aplikasi bermanfaat, simple, dan berguna buat banyak orang.">
     <meta name="google-site-verification" content="Ff15mjBqTDtxxVOzNPsK34G7x6FwFCHhkwWMTzsPeHQ" />
-    <title>Riverse Dev</title>
+    <title>Riverse Dev — Indie App Studio</title>
+    <link rel="icon" type="image/png" href="assets/images/appicon-uangku.png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <header>
-        <h1>Riverse Dev</h1>
-        <p>
-            Riverse Dev adalah studio indie yang doyan bikin aplikasi bermanfaat, simple,
-            dan berguna buat banyak orang. Misi kami cuma satu: bikin hidup orang jadi
-            lebih gampang lewat teknologi. No ribet, no drama — hanya solusi yang nyata.
-        </p>
+<body class="no-transition">
 
-        <button id="themeToggle" class="toggle-btn">🌙 / ☀️</button>
-    </header>
+    <!-- ===== Navbar ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-inner">
+            <div class="navbar-brand">Riverse Dev</div>
+            <div class="navbar-actions">
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+                    <span class="material-symbols-outlined" id="themeIcon">dark_mode</span>
+                </button>
+            </div>
+        </div>
+    </nav>
 
-    <section class="apps">
-        <h2>Aplikasi Kami</h2>
-        <div id="appGrid" class="grid"></div>
+    <!-- ===== Hero Section ===== -->
+    <section class="hero" id="hero">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Indie App Studio 🇮🇩
+            </div>
+
+            <h1 class="text-display-lg hero-heading">Riverse Dev</h1>
+
+            <p class="text-body-lg hero-description">
+                Studio indie yang doyan bikin aplikasi bermanfaat, simple, dan berguna buat banyak orang.
+                Misi kami cuma satu: bikin hidup orang jadi lebih gampang lewat teknologi.
+                No ribet, no drama — hanya solusi yang nyata.
+            </p>
+
+            <a class="cta-btn" href="#aplikasi">
+                Lihat Aplikasi
+                <span class="material-symbols-outlined arrow">arrow_downward</span>
+            </a>
+        </div>
     </section>
 
+    <!-- ===== Apps Section ===== -->
+    <section class="apps-section" id="aplikasi">
+        <div class="section-header">
+            <h2 class="text-headline-md">Aplikasi Kami</h2>
+            <p class="text-body-md">Solusi sederhana untuk masalah sehari-hari.</p>
+        </div>
+        <div id="appGrid" class="app-grid"></div>
+    </section>
+
+    <!-- ===== Footer ===== -->
     <footer>
-        <p>© <span id="year"></span> Riverse Dev</p>
+        <div class="footer-inner">
+            <div class="footer-copy text-label-sm">© <span id="year"></span> Riverse Dev</div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
 
-
 </html>
-
