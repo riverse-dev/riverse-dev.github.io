@@ -22,5 +22,13 @@
         "icon": "assets/images/appicon-listriku.png",
         "description": "Hitung pemakaian listrik harian & bulanan dengan mudah bersama Listriku",
         "is_release": true
+    },
+    {
+        "app_id": "ingetin",
+        "name": "Ingetin",
+        "link": "https://play.google.com/store/apps/details?id=id.riverse.ingetin",
+        "icon": "assets/images/appicon-ingetin.png",
+        "description": "Lacak langganan, atur pengingat tagihan, analisis pengeluaran",
+        "is_release": false
     }
 ]
